@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7b64e19-de94-41e5-b287-c5bca75bac75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mouseclicker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/029.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/032.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/034.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/038.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/044.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/047.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/052.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/054.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/056.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/057.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/058.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/059.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/061.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/062.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/063.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/064.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/065.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/067.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/068.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/069.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/070.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/073.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/074.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/075.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/077.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/078.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/079.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/082.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/083.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/084.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/085.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/087.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/088.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/089.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/090.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/091.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/092.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/093.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/094.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/095.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/097.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/098.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/099.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/back.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/029.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/032.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/034.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/038.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/044.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/047.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/052.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/054.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/056.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/057.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/058.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/059.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/big/060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\slfdstrctd\Desktop\mouseclicker\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tclx1Si7vdHNb2dp3ImrFZFhKg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7b64e19-de94-41e5-b287-c5bca75bac75" name="Default Changelist" comment="" />
+      <created>1573767507971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573767507971</updated>
+      <workItem from="1573767509260" duration="3564000" />
+      <workItem from="1573771991869" duration="240000" />
+      <workItem from="1574064002845" duration="51000" />
+      <workItem from="1574535683027" duration="1780000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мышкокликер</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <p id="loading">Загрузка...</p>
+    <div id="main" style="display: none;">
+        <div id="mice">
+        </div>
+        <div class="widget">
+            <ul id="navbar">
+                <li>
+                    <div class="wrap">
+                        <div class="wrap__item clearfix">
+                            <label><input id="input" class="wrap__input" placeholder="Сколько мышек?"></label>
+                            <button id="button" class="wrap__button" onclick="init">Тык</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="wrap">
+                        <div>
+                            <!-- <button>Заново?</button> -->
+                            <p>Кликнуто мышек:</p>
+                            <p id="count">0</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script async defer src="main.js"></script>
+</html>
