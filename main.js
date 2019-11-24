@@ -11,7 +11,7 @@ document.getElementById("button").onclick = init
 
 function init() {
 	del_count = 0
-	img_count = document.getElementById("input").value % 104 || 10 + getRandomInt(30)
+	img_count = document.getElementById("input").value || 10 + getRandomInt(30)
 	count.innerText = del_count + "/" + img_count
 
 	let i = 1
@@ -27,10 +27,12 @@ function init() {
 		let mice_w = 40 + getRandomInt(mice_max_width)
 		let img = new Image()
 
-		img.src = `./img/${normalize(i)}.png`
+		img.src = `./img/${normalize(i % mice_max + 1)}.png`
 		img.style.position = "absolute"
-		img.style.left = `${getRandomInt(window.innerWidth * 0.7)}px`
-		img.style.top = `${getRandomInt(window.innerHeight * 0.6)}px`
+		let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		let height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+		img.style.left = `${getRandomInt(width * 0.7)}px`
+		img.style.top = `${getRandomInt(height * 0.6)}px`
 		img.onload = async function () {
 			let k = this.height / (this.width / mice_w)
 			this.width = mice_w
