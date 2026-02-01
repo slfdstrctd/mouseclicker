@@ -2,36 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Мышкокликер</title>
+    <title>Mouse Clicker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <p id="loading">Загрузка...</p>
+    <p id="loading" aria-live="polite">Loading...</p>
     <div id="main" style="display: none;">
-        <div id="mice">
-        </div>
+        <div id="mice" role="application" aria-label="Click the mice to remove them"></div>
         <div class="widget">
             <ul id="navbar">
                 <li>
                     <div class="wrap">
                         <div class="wrap__item clearfix">
-                            <label><input id="input" class="wrap__input" placeholder="Сколько мышек?"></label>
-                            <button id="button" class="wrap__button" onclick="init">Тык</button>
+                            <label for="input">
+                                <span class="sr-only">Number of mice</span>
+                                <input id="input" class="wrap__input" type="number" min="1" max="104" placeholder="How many mice?" aria-label="Number of mice">
+                            </label>
+                            <button id="button" class="wrap__button" type="button">Go</button>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="wrap">
                         <div>
-                            <!-- <button>Заново?</button> -->
-                            <p>Кликнуто мышек:</p>
-                            <p id="count">0</p>
+                            <p>Mice clicked: <span id="count" aria-live="polite">0</span></p>
                         </div>
                     </div>
                 </li>
             </ul>
         </div>
+        <div id="win-message" class="win-message" aria-live="polite" hidden>All mice cleared! Click Go to play again.</div>
     </div>
 </body>
-<script async defer src="main.js"></script>
+<script defer src="main.js"></script>
 </html>

@@ -1,70 +1,106 @@
 // Params
-let img_count
-let del_count = 0
-let mice_max_width = 120
-const mice_max = 104
-let count = document.getElementById('count')
+let img_count;
+let del_count = 0;
+const mice_max_width = 120;
+const mice_max = 104;
 
-document.ready = init(null)
+let countEl, inputEl, buttonEl, mainEl, miceEl, loadingEl, winMessageEl;
 
-document.getElementById("button").onclick = init
+document.addEventListener('DOMContentLoaded', function () {
+  countEl = document.getElementById('count');
+  inputEl = document.getElementById('input');
+  buttonEl = document.getElementById('button');
+  mainEl = document.getElementById('main');
+  miceEl = document.getElementById('mice');
+  loadingEl = document.getElementById('loading');
+  winMessageEl = document.getElementById('win-message');
+
+  buttonEl.addEventListener('click', init);
+
+  miceEl.addEventListener('click', function (e) {
+    if (e.target.tagName === 'IMG' && e.target.closest('#mice')) {
+      removeMice(e);
+    }
+  });
+
+  init();
+});
 
 function init() {
-	del_count = 0
-	img_count = document.getElementById("input").value || 10 + getRandomInt(30)
-	count.innerText = del_count + "/" + img_count
+  del_count = 0;
+  const raw = inputEl.value.trim();
+  const parsed = parseInt(raw, 10);
+  img_count = (raw !== '' && !isNaN(parsed))
+    ? Math.min(mice_max, Math.max(1, parsed))
+    : 10 + getRandomInt(30);
 
-	let i = 1
-	let main = document.getElementById('main')
-	let mice = document.getElementById('mice')
-	let loading = document.getElementById('loading')
+  updateCount();
+  winMessageEl.hidden = true;
 
-	while (mice.firstChild) {
-		mice.removeChild(mice.firstChild)
-	}
+  while (miceEl.firstChild) {
+    miceEl.removeChild(miceEl.firstChild);
+  }
 
-	while (i <= img_count) {
-		let mice_w = 40 + getRandomInt(mice_max_width)
-		let img = new Image()
+  const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
-		img.src = `./img/${normalize(i % mice_max + 1)}.png`
-		img.style.position = "absolute"
-		let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-		let height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-		img.style.left = `${getRandomInt(width * 0.7)}px`
-		img.style.top = `${getRandomInt(height * 0.6)}px`
-		img.onload = async function () {
-			let k = this.height / (this.width / mice_w)
-			this.width = mice_w
-			this.height = k
-			this.onclick = removeMice
-		}
-		i++
-		mice.appendChild(img)
-	}
+  for (let i = 1; i <= img_count; i++) {
+    const miceW = 40 + getRandomInt(mice_max_width);
+    const img = new Image();
+    img.src = `./img/${normalize((i % mice_max) + 1)}.png`;
+    img.style.position = 'absolute';
+    img.style.left = `${getRandomInt(Math.max(0, width * 0.7 - miceW))}px`;
+    img.style.top = `${getRandomInt(Math.max(0, height * 0.6 - 80))}px`;
+    img.dataset.mice = '1';
+    img.alt = 'Mouse';
+    img.setAttribute('role', 'button');
+    img.setAttribute('tabindex', '0');
 
-	main.style.display = "block"
-	loading.style.display = "none"
+    img.onload = function () {
+      const k = this.naturalHeight / (this.naturalWidth / miceW);
+      this.style.width = miceW + 'px';
+      this.style.height = k + 'px';
+    };
+
+    img.onkeydown = function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        removeMice({ target: this });
+      }
+    };
+
+    miceEl.appendChild(img);
+  }
+
+  mainEl.style.display = 'block';
+  loadingEl.style.display = 'none';
 }
 
-function removeMice(props) {
-	if (!props.target.classList.contains('fade')) {
-		del_count++
-		count.innerText = del_count + "/" + img_count
-	}
-	props.target.classList.add('fade')
-	setTimeout(function () {
-		props.target.remove()
-	}, 500)
+function updateCount() {
+  countEl.textContent = img_count ? `${del_count}/${img_count}` : '0';
+}
 
+function removeMice(ev) {
+  const target = ev.target;
+  if (!target.classList.contains('fade')) {
+    del_count++;
+    updateCount();
+  }
+  target.classList.add('fade');
+  setTimeout(function () {
+    target.remove();
+    if (miceEl.querySelectorAll('img').length === 0) {
+      winMessageEl.hidden = false;
+    }
+  }, 500);
 }
 
 function getRandomInt(max) {
-	return Math.floor(Math.random() * Math.floor(max))
+  return Math.floor(Math.random() * Math.floor(max));
 }
 
 function normalize(t) {
-	if (t < 10) return "00" + t
-	else if (t < 100) return "0" + t
-	else return t
+  if (t < 10) return '00' + t;
+  if (t < 100) return '0' + t;
+  return String(t);
 }

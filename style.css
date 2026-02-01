@@ -68,3 +68,45 @@ body {
         opacity: 0;
     }
 }
+
+/* Screen-reader only text */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Win message */
+.win-message {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f976ab;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+#mice img {
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+#mice img:hover {
+    transform: scale(1.05);
+}
+
+#mice img:focus {
+    outline: 2px solid #33ADFF;
+    outline-offset: 2px;
+}
